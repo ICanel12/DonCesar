@@ -1,0 +1,234 @@
+ion-toolbar {
+    --color: #ffffff;
+    --background: black;
+}
+ion-content{
+    --ion-background-color: linear-gradient(#141e30, #243b55);
+}
+
+#content-menu{
+    width: 65%;
+}
+
+#content-menu #return{  
+    width: 30%;
+    float: left;
+}
+
+#content-menu #return ion-button{
+    font-size: 10px;
+}
+
+#content-menu #menu{  
+    width: 70%;
+    float: right;
+}
+
+#content-menu #menu ion-button:first-child{
+    padding-left: 3%;
+}
+
+#content-menu #menu ion-button{
+    font-size: 5px;
+}
+
+ion-buttons #content-icon{
+    width: 35%;
+}
+
+#container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#phrase{
+    font-size: 38px;
+    text-align: center;
+    color: #DAEED3;
+    margin-top: 42px;
+}
+
+span{
+    color:#f7ab24;
+}
+
+#mailtruck{
+    width: 70%;
+    padding-top: 20px;
+}
+
+#price{
+    width: 70%;
+    height: auto;
+    color: #f7ab24;
+    margin: 0px auto;
+}
+
+#price{
+    font-size: 18px;
+    width: 50%;
+}
+
+#price p:first-child{ 
+    float: left;
+}
+
+#price p:nth-child(2){
+    float: right;
+}
+
+#donate{
+    width: 100%;
+    height: auto;
+    padding-top: 34%;
+}
+
+#donate img{
+    width: 17%;
+    display: block;
+    float: left;
+    margin-top: 3px;
+}
+
+#donate p{
+    color: #f7ab24;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0px;
+    display: block;
+    float: left;
+    margin-left: 35px;
+}
+
+#phraseTwo{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 18%;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+@media (width: 320px){
+    #content-menu #menu ion-button{
+        font-size: 4px;
+    }
+
+    #content-menu #return ion-button{
+        font-size: 8px;
+    }
+}
+
+@media (width: 768px){
+    h1{
+        font-size: 48px;
+    }
+
+    #price{
+        width: 38%;
+    }
+
+    #phrase{
+        margin-top: 84px;
+    }
+
+    #phraseTwo{
+        font-size: 22px;
+    }
+
+    #price p{
+        
+    font-size: 24px;
+
+    }
+
+    #donate{
+        padding-top: 24%;
+    }
+    
+    #donate img{
+        width: 10%;
+    }
+
+    #donate p{
+        font-size: 66px;
+    }
+        
+    #mailtruck{
+        width: 52%;
+        padding-top: 28px;
+    }   
+}
+
+
+@media (width: 1024px){ 
+    #phrase{
+        font-size: 64px;       
+        margin-top: 88px;
+    }
+
+    #mailtruck {
+        width: 64%;
+        padding-top: 48px;
+    }
+
+    #price p{
+        font-size: 44px;
+    }
+
+    #phraseTwo{
+        font-size: 34px;
+    }
+
+    #donate img{
+        width: 12%;
+    }
+
+    #donate {
+        padding-top: 28%;
+    }
+
+    #donate p {
+        font-size: 97px;
+    }
+}
+
+
+@media (width: 450px){
+    #donate img {
+        width: 15%;
+    }
+
+    #donate{
+        padding-top: 28%;
+    }
+}
+
+
+@media (width: 280px){   
+    #content-menu #menu ion-button{
+        font-size: 2.5px;
+    }
+
+    #content-menu #return ion-button{
+        font-size: 6px;
+    }   
+
+    #phrase{
+        font-size: 33px;
+        margin-top: 31px;
+    }
+
+    #donate p {
+        font-size: 48px;
+    }
+
+    #donate img {
+        width: 19%;
+    }
+}

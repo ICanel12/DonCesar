@@ -1,0 +1,341 @@
+ion-toolbar {
+    --color: #ffffff;
+    --background: black;
+}
+ion-content{
+    --ion-background-color: linear-gradient(#141e30, #243b55);
+}
+
+a{
+    color: #f7ab24;
+}
+
+#content-menu{
+    width: 65%;
+}
+
+#content-menu #help{  
+    width: 30%;
+    float: left;
+}
+
+#content-menu #help ion-button{
+    font-size: 10px;
+}
+
+#content-menu #menu{  
+    width: 70%;
+    float: right;
+}
+
+#content-menu #menu ion-button:first-child{
+    padding-left: 3%;
+}
+
+#content-menu #menu ion-button{
+    font-size: 5px;
+}
+
+ion-buttons #content-icon{
+    width: 35%;
+}
+
+#container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#container-box{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+#boxOne, #boxTwo{
+    width: 41%;
+    height: 44px;
+    background: #f7ab24;
+    border-radius: 40px;
+}
+
+#boxOne p, #boxTwo p{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 3px;
+    color: white;
+}
+
+#boxOne{
+    display: block;
+    float: left;
+}
+
+#boxTwo{
+    display: block;
+    float: right;
+}
+
+#container-box h2{
+    color: white;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 2%; 
+}
+
+#container-box #donaciones{
+    width: 41%;
+    float: left;
+    text-align: left;
+}
+
+#container-box #invitaciones{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+
+#box-donate, #box-partaker{
+    width: 78%;
+    height: 160px;
+    background: #f7ab24;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 30px orange;
+}
+
+#box-donate img{
+    margin-top: 26px;
+    width: 31%;
+}
+
+#box-partaker img{
+    margin-top: 36px;
+    width: 38%;
+}
+
+#box-donate h1{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 2px;
+}
+
+#donate-information, #partaker-information{
+    color: white;
+    text-align: justify;
+    font-family: 10px;
+    margin-bottom: 35px;
+}
+
+#donate-information h2, #partaker-information h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+#social-media{
+    width: 7%;
+    float: left;
+    margin-top: -10px;
+    height: 110px;
+}
+
+#social-media img{
+    margin-bottom: 5px;
+}
+
+#information{
+    text-align: center;
+    float: right;
+    width: 85%;
+    margin-bottom: 15%;
+    margin-top: -2%;
+    color: white;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+@media (width: 320px){
+    #content-menu #menu ion-button{
+        font-size: 4px;
+    }
+
+    #content-menu #menu ion-button:first-child{
+        padding-left: 2%;
+    }
+
+    #container-box #donaciones, #container-box #invitaciones{
+        font-size: 11.5px;
+    }
+}
+
+
+@media (width: 768px){
+    p{
+        font-size: 26px;
+    }
+
+    h1{
+        font-size: 72px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    #container-box{
+        height: 132px;
+    }
+
+    #container-box #donaciones, #container-box #invitaciones{
+        font-size: 22px;
+        text-align: center;
+        width: 41%;
+    }
+
+    #boxOne, #boxTwo{
+        width: 42%;
+        height: 60px;
+    }
+
+    #boxOne p, #boxTwo p{
+        font-size: 38px;
+        margin-top: 8px
+    }   
+
+    #box-donate, #box-partaker{
+        width: 56%;
+        height: 220px;
+    }
+
+    #social-media{
+        width: 5%;
+    }
+
+    #social-media img{
+        margin-bottom: 18px;
+    }
+
+    #information{
+        margin-top: 3%;
+    }
+
+    #participate{
+        text-align: center;
+    }
+}
+
+
+@media (width: 1024px){
+    p{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 86px;
+    }
+
+    h2{
+        font-size: 54px;
+    }
+
+    #boxOne, #boxTwo{
+        width: 42%;
+        height: 60px;
+    }
+
+    #boxOne p, #boxTwo p{
+        font-size: 38px;
+        margin-top: 8px
+    }
+
+    #container-box #donaciones, #container-box #invitaciones{
+        font-size: 30px;
+        text-align: center;
+        width: 41%;
+    }
+    
+    #box-donate, #box-partaker{
+        
+    margin-top: 8%;
+
+        width: 50%;
+        height: 258px;
+    }
+
+    #social-media{
+        width: 5%;
+    }
+
+    #social-media img{
+        margin-bottom: 18px;
+    }
+    
+    #participate{
+        text-align: center;
+    }
+
+    #information{
+        margin-top: 5%;
+    }
+}
+
+
+@media (width: 450px){
+    #box-donate, #box-partaker{
+        width: 70%;
+        height: 185px;
+    }
+
+    #container-box #donaciones, #container-box #invitaciones{
+        font-size: 14px;
+        text-align: center;
+        width: 41%;
+    }
+
+    #social-media{
+        margin-top: 12px;
+        width: 5%;
+    }
+
+    #social-media img{
+        margin-bottom: 10px;
+    }
+
+    #participate{
+        text-align: center;
+    }
+
+    #information{
+        margin-top: 5%;
+    }
+}
+
+
+@media (width: 280px){
+    p{
+        font-size: 15px;
+    }
+
+    #box-partaker img{
+        margin-top: 44px;
+    }
+
+    #container-box #donaciones, #container-box #invitaciones{
+        font-size: 10px;
+    }
+
+    #content-menu #menu ion-button{
+        font-size: 2.5px;
+    }
+
+    #content-menu #return ion-button{
+        font-size: 6px;
+    }   
+}

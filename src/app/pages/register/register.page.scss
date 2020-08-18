@@ -1,0 +1,315 @@
+ion-content{
+  --ion-background-color: linear-gradient(#141e30, #243b55);;
+}
+
+ion-input:hover{
+  border-bottom: 1.5px solid yellow !important;
+}
+
+#content{
+  background: rgba(19, 19, 19, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  width: 85%;
+  height: 86%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+form{
+  margin-top: 10%;
+}
+
+#content h2{
+  font-weight: bold;
+  text-align: center;
+  color:yellow;
+  font-size: 25px;
+  margin-top: 3%;
+}
+
+#content-image{
+  width: 100%;
+  height: 24%; 
+}
+
+#content-image #cover-page{
+  position: absolute;
+  width: 85%;
+  height: 120PX;
+}
+
+#content-image #user{
+    position: absolute;
+    border-radius: 60%;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 5%;
+}
+ 
+.user-box{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+  
+.user-box ion-input {
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.user-box ion-label {   
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 15px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.user-box ion-icon{
+  font-size: 18px;
+}
+  
+.user-box #container-button{
+  text-align: center;
+}
+
+#button-submit {
+  border: 5px solid;
+  position: relative;
+  display: inline-block;
+  padding: 8px 14px;
+  color: yellow;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+#section{
+  align-items: center;
+}
+
+#button-submit:hover {
+  background: yellow;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 3px yellow,
+              0 0 7px yellow,       
+}
+
+
+@media (min-height: 731px){
+  .user-box ion-icon{
+    font-size: 20px;
+  }
+
+  .user-box ion-label{
+    font-size: 20px;
+  }
+
+  #content-image #user{
+    margin-top: 7%;
+  }
+
+  #content h2{    
+    margin-top: 5%;
+  }
+
+  form{
+    margin-top: 12%;
+  }
+
+  #button-submit{
+    margin-top: 4%;
+    padding: 10px 21px;
+  }
+}
+
+
+@media (min-height: 823px){
+  #content{
+    margin-top: 12%;
+    height: 78%;
+    margin-top: 18%;
+  }
+
+  .user-box ion-icon{
+    font-size: 22px;
+  }
+
+  .user-box ion-label{
+    font-size: 22px;
+  }
+
+  #content h2{    
+    margin-top: 4%;
+    font-size: 28px;
+  }
+
+  #button-submit{
+    margin-top: 4%;
+    padding: 13px 26px;
+  }
+}
+
+
+@media (min-width: 450px){
+  #content{
+    margin-top: 5%;
+    height: 92%;
+  }
+
+  #content h2{    
+    margin-top: 2%;
+  }
+
+  form{
+    margin-top: 8%;
+  }
+
+  #button-submit{
+    margin-top: 2%;
+  }
+
+  #content-image #user{
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+
+
+@media (width: 280px){
+  #content{
+    width: 85%;
+    height: 80%;
+    margin-top: 21%;
+  }
+
+  #content h2{    
+    margin-top: -6%;
+  }
+
+  form{
+    margin-top: 13%;
+  }
+
+  #content-image #user{
+    margin-left: 27%;
+  }
+
+  #button-submit{
+    margin-top: 0%;
+  }
+}
+
+
+@media (width: 375px){
+  #content{
+    height: 86%;
+    margin-top: 11%;
+  }
+
+  #content h2{    
+    margin-top: 3%;
+  }
+}
+
+
+@media (width: 375px) and (height: 812px){
+  #content{
+    height: 78%;
+    margin-top: 18%;
+  }
+}
+
+
+@media (width: 320px){
+  #content{
+    height: 92%;
+    margin-top: 6%;
+  }
+
+  #content-image #user{
+    margin-top: 4%;
+  }
+
+  #content h2{    
+    margin-top: 0%;
+  }
+
+  #button-submit{
+    margin-top: 0%;
+  } 
+}
+
+
+@media (min-width: 1024px){
+  #content h2{    
+    margin-top: 2%;
+    font-size: 65px;
+  } 
+
+  .user-box ion-icon{
+    font-size: 40px;
+  }
+
+  .user-box ion-label{
+    font-size: 40px;
+  }
+
+  .user-box ion-input{
+    height: 90px;
+    font-size: 30px;
+    margin-bottom: 10%;
+  }
+
+  #button-submit{
+    font-size: 30px;
+    padding: 25px 56px;
+    margin-top: 0%;
+  } 
+}
+
+
+@media (width: 768px){
+  #content h2{    
+    margin-top: 2%;
+    font-size: 46px;
+  } 
+
+  .user-box ion-icon{
+    font-size: 32px;
+  }
+
+  .user-box ion-label{
+    font-size: 32px;
+  }
+
+  .user-box ion-input{
+    height: 70px;
+    font-size: 28px;
+    margin-bottom: 9%;
+  }
+
+  #button-submit{
+    font-size: 25px;
+  } 
+}

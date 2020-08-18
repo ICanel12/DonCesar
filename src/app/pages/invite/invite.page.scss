@@ -1,0 +1,367 @@
+ion-toolbar {
+    --color: #ffffff;
+    --background: black;
+}
+ion-content{
+    --ion-background-color: linear-gradient(#141e30, #243b55);
+}
+
+#content-menu{
+    width: 65%;
+}
+
+#content-menu #return{  
+    width: 30%;
+    float: left;
+}
+
+#content-menu #return ion-button{
+    font-size: 10px;
+}
+
+#content-menu #menu{  
+    width: 70%;
+    float: right;
+}
+
+#content-menu #menu ion-button:first-child{
+    padding-left: 3%;
+}
+
+#content-menu #menu ion-button{
+    font-size: 9px;
+}
+
+ion-buttons #content-icon{
+    width: 35%;
+}
+
+
+#menu{
+    width: 166px;
+    text-align: center;
+}
+
+#menu ion-button{
+    font-size: 10px;
+}
+
+#container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+#price{
+    color: #f7ab24;
+    font-size: 44px;
+    margin-bottom: 0px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+#font{
+    width: 100%;  
+    height: 95px;
+    margin-top: 40px;
+}
+
+#font div{
+    display: block;
+    float: left;
+}
+
+#font div:nth-child(1){
+    width: 30%;
+}
+
+#font div:nth-child(2),
+#font div:nth-child(3)
+{
+    width: 25%;
+}
+
+#font div:nth-child(4){
+    width: 20%;
+}
+
+
+
+#font div:nth-child(2) p,
+#font div:nth-child(3) p{  
+    font-size: 25px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+
+#font div:nth-child(2) p{
+    margin-left: 16%;
+}
+
+#font div:nth-child(3) p{
+    margin-right: 40%;
+}
+
+#font div:nth-child(2) img,
+#font div:nth-child(3) img{
+    width: 70%;
+    margin-top: 8%;
+}
+
+#font div:nth-child(1) img{
+    margin-top: 16%;
+}
+
+#font div:nth-child(2) img{
+    float: right;
+}
+
+#font div:nth-child(3) img{
+    float: left;
+}
+
+
+#font div:nth-child(4) img{
+    margin-top: 12%;
+    height: 85px;
+}
+
+#information p{
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+#btn-invite{
+    font-size: 24px;
+    height: 41px;
+    width: 43%;
+    font-weight: bold;
+    background-color: #f7ab24;
+    border-radius: 22px;
+}
+
+#section{
+    width: 100%;
+    margin-top: 35px;
+    height: 106px;
+    margin-bottom: 20px;
+}
+
+#wehelp{
+    width: 50%;
+    float: left;
+}
+
+#container-btnhelp{
+    width: 50%;
+    float: right;
+}
+
+#container-btnhelp button{
+    margin-top: 15%;
+    font-size: 18px;
+    height: 36px;
+    width: 75%;
+    font-weight: bold;
+    background-color: #f7ab24;
+    border-radius: 22px;
+}
+
+#wehelp img{
+    width: 36%;
+}
+
+#wehelp p{
+    margin: 0px;
+    font-weight: bold;
+    color: #f7ab24;
+    font-size: 25px;
+}
+
+
+@media (width: 411px){
+    #font{
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (width: 320px){
+    #content-menu #menu ion-button{
+        font-size: 4px;
+    }
+
+    #content-menu #menu ion-button:first-child{
+        padding-left: 2%;
+    }
+
+    #btn-invite {
+        font-size: 22px;
+        height: 41px;
+        width: 48%;
+    }
+}
+
+
+@media (width: 768px){
+    #price   {
+        margin-top: 62px;
+        font-size: 90px;
+    }
+
+    h1{
+        font-size: 72px;
+    }
+
+    #font{
+        height: 220px;
+    }
+
+    p{
+        font-size: 26px;
+    }
+
+    #font div:nth-child(1) img {
+        margin-top: 13%;
+    }
+
+    #font div:nth-child(2) img, #font div:nth-child(3) img {
+        margin-top: 12%;
+    }
+
+    #font div:nth-child(4) img {
+        margin-top: 32%;
+        height: 140px;
+    }
+
+    #font div:nth-child(2) p, #font div:nth-child(3) p {
+        font-size: 42px;
+    }
+
+    #btn-invite{
+        font-size: 35px;
+        height: 68px;
+        width: 34%;
+        border-radius: 40px;
+    }
+
+    #wehelp img {
+        width: 28%;
+    }
+
+    #wehelp p {
+        font-size: 38px;
+    }
+
+    #container-btnhelp button{
+        margin-top: 9%;
+        font-size: 30px;
+        height: 50px;
+        width: 59%;   
+        border-radius: 30px;
+    }
+
+    #section {
+        height: 180px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (width: 1024px){
+    p{
+        font-size: 30px;
+    }
+    #price{
+        margin-top: 60px;
+        font-size: 120px;
+    }
+
+    #font {
+        height: 290px;
+    }
+
+    #font div:nth-child(2) p, #font div:nth-child(3) p{
+        font-size: 64px;
+    }
+
+    #font div:nth-child(4) img {
+        margin-top: 24%;
+        height: 208px;
+    }
+
+    #btn-invite {
+        font-size: 60px;
+    height: 98px;
+    width: 40%;
+    border-radius: 60px;
+    }
+
+    #wehelp p{
+        font-size: 56px;
+    }
+
+    #section {
+        margin-top: 66px;
+        height: 312px;
+    }
+
+    #container-btnhelp button {
+        font-size: 44px;
+        height: 76px;
+        width: 75%;
+        border-radius: 55px;
+    }
+}
+
+
+@media (width: 450px){
+    #font{
+        height: 140px;
+    }
+
+    #font div:nth-child(4) img{
+        margin-top: 31%;
+    }
+
+    #section{
+        margin-bottom: 46px;
+    }
+}
+
+
+@media (width: 280px){
+
+    #content-menu #menu ion-button{
+        font-size: 2.5px;
+    }
+
+    #content-menu #return ion-button{
+        font-size: 6px;
+    }   
+
+    #font div:nth-child(4) img{
+        height: 67px;
+    }
+
+    #btn-invite{
+        width: 60%;
+    }
+
+    #price{
+        margin-top: 24px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+}
